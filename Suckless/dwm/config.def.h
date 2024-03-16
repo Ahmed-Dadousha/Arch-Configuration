@@ -23,7 +23,7 @@ static const char *colors[][3]      = {
 
 static const char *const autostart[] = {
 	"sh", "-c", "slstatus",		  NULL,
-	"sh", "-c", "nitrogen --restore", NULL,
+	"sh", "-c", "~/.fehbg",	  NULL,
 	"sh", "-c", "sxhkd",		  NULL,
 	"sh", "-c", "xhost local:root",   NULL
 };
