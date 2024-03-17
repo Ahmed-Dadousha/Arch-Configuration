@@ -7,3 +7,5 @@ if [ "$current_layout" == "us" ]; then
 else
     setxkbmap us
 fi
+
+pkill -RTMIN+10 dwmblocks
