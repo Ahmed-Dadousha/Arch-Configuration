@@ -22,7 +22,7 @@ static const char *colors[][3]      = {
 };
 
 static const char *const autostart[] = {
-	"sh", "-c", "dwmblocks",	  NULL,
+	"sh", "-c", "export PATH=\"$PATH:Scripts\" && dwmblocks",	  NULL,
 	"sh", "-c", "~/.fehbg",	  	  NULL,
 	"sh", "-c", "sxhkd",		  NULL,
 	"sh", "-c", "xhost local:root",   NULL
