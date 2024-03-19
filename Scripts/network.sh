@@ -1,7 +1,6 @@
 #!/bin/bash
 
-else
-#!/bin/bash
+check_internet() {
     ping -c 1 -w 1 8.8.8.8 > /dev/null 2>&1
    return $?
 }
